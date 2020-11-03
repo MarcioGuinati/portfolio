@@ -1,0 +1,292 @@
+<html>
+    <head>
+        <title>Marcio Guinati</title>
+        <meta charset="UTF-8">
+        <link  rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link  rel="stylesheet" type="text/css" href="css/responsivo.css"/>
+        <!--Incorpora o bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Incorpora a fonte da letra bebas neue-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/1488/1488581.svg">
+    </head>
+    <body style="background-color: #2b2c2c;">
+        <div id="mymenuLateral" class="menuLateral">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menuLateral1">
+                <a href="#home">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="#sobreMim">Sobre Mim</a>
+                <a href="#experiencia">Experiência</a>
+                <!--<a href="#habilidades">Habilidades</a>-->
+                <a href="#projetos">Projetos</a>
+                <a href="#educacao">Educação</a>
+                <a href="#contato">Contato</a>
+                <a href="Curriculo Marcio.pdf" target="blank">Download Curriculo</a>
+            </div>
+          </div>
+          <span style="font-size:30px;cursor:pointer; color: #e0a80d; padding-left: 10px;" onclick="openNav()">&#9776;</span>
+        <div id="menu"> <!--Chega a pagina inteira a direita-->
+        <!--Adiciona a minha foto de perfil que no caso seria o avatar-->
+        <div id="home">
+            <img src="img/marcio_guinati.jpg" alt="Avatar Marcio" class="avatar">
+            <h1 class="titulo-principal">Marcio Guinati Desenvolvedor WEB</h1>
+        </div>    
+        <!--Finaliza a minha foto de perfil que no caso seria o avatar-->
+
+        <hr id="linha"><!--Adiciona a linha separadora-->
+
+        <!--Inicia a tabela com meus dados pessoais, cidade, telefone, site, e e-mail-->
+        <div>
+            <table class="table-sm table-borderless">
+                <thead>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Telefone</th>
+                    <th>Web</th>
+                    <th>E-mail</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>São José da Bela Vista</td>
+                    <td>(16) 99247 - 5333</td>
+                    <td>www.marcioguinati.com.br</td>
+                    <td>marcioguinati@outlook.com</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--Finaliza a tabela com meus dados pessoais, cidade, telefone, site, e e-mail-->
+
+        <!--Inicia a inserção dos meus icones de rede social-->
+        <div id="icones">
+            <a href="https://www.instagram.com/marcioguinati" target="blank" class="iconeSocial"><i class="fab fa-instagram"></i></a>
+            <a href="" target="blank" class="iconeSocial"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/MarcioGuinati" target="blank" class="iconeSocial"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/marcio-guinati-b87322179/" target="blank" class="iconeSocial"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <!--Finaliza a inserção dos meus icones de rede social-->
+
+        <!--Pulador de linhas-->
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <!--Pulador de linhas-->
+
+        <!--Inicia a escrita do texto sobre mim-->
+        <section>
+            <h1 id="sobreMim" data-left>Sobre mim</h1>
+            <p class="paragrafo">Olá, me chamo Marcio Guinati! Sou apaixonado por desenvolvimento Web, é de extrema importância dizer que essa área me faz feliz, todos os dias busco por aprendizagem para eu poder aprender constantemente.</p>
+            <p class="paragrafo">Com 14 anos ingressei no meu primeiro emprego, minha principal função era registrar atendimentos, eu era desconhecedor em tudo relacionado a computação. Minhas dificuldades eram diárias, pensei até em desistir por me senti inferior aos outros, por não conseguir me desenvolver nessa área tão tecnológica. Anos se passaram, amadureci profissionalmente e criei uma admiração e paixão por desenvolvimento de software.</p>
+            <a href="Curriculo Marcio.pdf" target="blank"><button type="button" class="btn btn-outline-warning curriculo">Download Curriculo</button></a>
+        </section>
+        <!--Finaliza a escrita do texto sobre mim-->
+        
+        <!--Inicia a timeline de experieFncia de trabalho-->
+        <section>
+            <h1 id="experiencia">Experiência</h1>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <ul class="timeline">
+                            <li>
+                                <a class="nomeEmpresa">Bioforte Saneamento</a>
+                                <a class="dataServ">01/02/2014 a 01/10/2016</a>
+                                <p class="paragrafo">Auxiliar Adminstrativo</br>. Atendimento Telefônico</br>. Financeiro</br>. Vendas</br>. Marketing</br>. RH</br>. Comercial</p>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Sis Dedetizadora</a>
+                                <a class="dataServ">03/10/2016 a 22/11/2018</a>
+                                <p class="paragrafo">Suporte de Software</br>.Suporte Remoto ao Cliente</br>. Interpretação de erros relatado pelos clientes sobre o uso do software</br>. Treinamento remoto e presencial</br>. Homologação de Boleto</br>. Homologação de NF</p>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Bioforte Saneamento</a>
+                                <a class="dataServ">Emprego Atual</a>
+                                <p class="paragrafo">Auxiliar Adminstrativo</br>. Atendimento Telefônico</br>. Vendas</br>. Marketing</br>. RH</br>. Comercial</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Finaliza a timeline de experiencia de trabalho-->
+
+        <!--Inicia os graficos de progresso-->
+        <!--<section>
+            <h1 id="habilidades">Habilidades</h1>
+            <label class="paragrafo">Css</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <label class="paragrafo">Html</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <label class="paragrafo">Bootstrap</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <label class="paragrafo">Javascript</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <label class="paragrafo">Java</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <label class="paragrafo">Jsf</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+        </section>-->
+        <!--Finaliza os graficos de progresso-->
+         <!--Inicia onde vai ficar fotos dos projetos ou esboços de projetos-->
+         <section>
+            <h1 id="projetos">Projetos</h1>
+            <div class="container projetos">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="img/java.png">
+                            <h3>Quiz Java</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Esse é um quiz feito em java, nele é feito perguntas e conforme o usuário responde certo ele acumula pontos.</p>
+                                <a href="https://github.com/MarcioGuinati/quiz-java" target="blank">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="img/css.png">
+                            <h3>Infinitepay</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Essa é uma calculadora de cálculo de porcentagem, cada parcela tem uma porcentagem, conforme coloca o valor ela calcula o valor.</p>
+                            <a href="https://github.com/MarcioGuinati/calculadoraInfinitepay" target="blank">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="img/css.png">
+                            <h3>Instagram</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Esse é um esboço apenas da web da tela do Instagram, nela é apresentando a tela de login do Instagram.</p>
+                            <a href="https://github.com/MarcioGuinati/instagram" target="blank">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Finaliza onde vai ficar fotos dos projetos ou esboços de projetos-->
+
+        <!--Inicia a formação de cursos ou da faculdade-->
+        <section>
+            <h1 id="educacao">Educação</h1>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <ul class="timeline">
+                            <li>
+                                <a class="nomeEmpresa">Ensino Médio - Escola Maciel de Castro Junior</a>
+                                <a class="dataServ">2014 a 2016</a>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Graduação de Análise e Desenvolvimento de Sistema - Unicesumar</a>
+                                <a class="dataServ">2019 a 2021</a>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Curso Bootcamp - Global Azue</a>
+                                <a class="dataServ">2018</a>
+                                <p class="paragrafo">Inteligência Artificial</p>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Curso de Programação Back-End - Jdev Treinamento</a>
+                                <a class="dataServ">2019 - 2022</a>
+                                <p class="paragrafo">Html, Css, Bootstrap, Jquery, Angular JavaScript, Jsf,
+                                    Jsp, Servlet, Prime Faces, Hibernate, Vue.js, Spring, Eclipse, PostgreSql,
+                                    Jpa e Etc</p>
+                            </li>
+                            <li>
+                                <a class="nomeEmpresa">Curso de Programação Front-End - B7Web</a>
+                                <a class="dataServ">2019 - 2022</a>
+                                <p class="paragrafo">Html, Css, Bootstrap, Jquery,JavaScript, Git,
+                                    React.js, Redux, Vue.js, Angular, Sass, Webpack, Typescript e Etc</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Finaliza a timeline de experiencia de trabalho-->
+        <!--Finaliza a formação de cursos ou da faculdade-->
+
+        <!--Inicia o formulario de contato para a pessoa se inscrever-->
+        <section>
+            <h1 id="contato">Contato</h1>
+            <form class="needs-validation" novalidate method="post" action="email/recebeEmail.php">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="validationCustom01">Nome</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" name="nome" required>
+                    <div class="invalid-feedback">
+                        Digite seu nome.
+                    </div>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="validationCustom02">E-mail</label>
+                    <input type="email" class="form-control" id="validationCustom02" placeholder="Sobrenome" name="email" required>
+                    <div class="invalid-feedback">
+                        Digite seu e-mail.
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="validationCustom03">Mensagem</label>
+                    <textarea type="text" class="form-control"  id="uname" placeholder="Digite sua mensagem.." name="mensagem" style="
+                      max-width: 100%; max-height: 120px;" required></textarea>
+                    <div class="invalid-feedback">
+                      Digite sua mensagem.
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-outline-warning enviar">Enviar Mensagem</button>
+                </br>
+                </br>
+                </br>
+              </form>
+        </section>
+        <!--Finaliza o formulario de contato para a pessoa se inscrever-->
+        <div class="rodape">Marcio Guinati - Todos direitos reservados ©2020.</div>
+        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5516992475333" target="blank"><img
+            src="img/whatsapp_icon-icons.com_62800.png" class="whatsapp" style="height:70px; position:fixed; bottom: 25px; right: 
+            15px; z-index:99999;" data-selector="img">
+        </a>
+    </div>
+    </body>
+    <!--Incorpora os icones-->
+    <script src="https://kit.fontawesome.com/0086bbc8d1.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!--Incorpora o bootstrap-->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</html>

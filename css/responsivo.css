@@ -1,0 +1,19 @@
+@media only screen and (min-width:600px) and (max-width:800px){
+    .titulo-principal{
+        width: 500px;
+    }
+    .corpo{
+        width: 500px;
+    }
+    .rodape{
+        width: 500px;
+    }
+}
+@media only screen and (max-width:600px){
+    .titulo-principal{
+        width: 1px;
+        height: 300px;
+        margin-left: 30%;
+        padding-top: 40%;
+    }
+}
