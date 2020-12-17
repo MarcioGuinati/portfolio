@@ -45,4 +45,3 @@ function typeWrite(elemento){
 const titulo = document.querySelector('.titulo-principal');
 typeWrite(titulo);
 /*Efeito da letra escrever o nome automatico fim*/
-

@@ -433,3 +433,9 @@ form{
     margin-left: 15%;
     margin-right:15%;
 }
+/*Sistema de comentário do blog*/
+#disqus_thread{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 5px;
+}
