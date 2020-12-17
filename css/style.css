@@ -411,9 +411,13 @@ form{
 .blog{
     margin-top: 5px;
 }
-#video{
-    text-align: center;
-    text-decoration: none;
+#video{    
+    margin-left: 19%;
+    margin-right: 15%;
+    border-radius: 5px;
+    height: 500px;
+    width: 900px;
+    margin-top: 0%;
 }
 #codigo{
     font-family: 'Lato', sans-serif;
@@ -421,4 +425,11 @@ form{
     padding-left: 90px;
     padding-right: 90px;
     color: #FFD700;
+}
+.imgBlog{
+    width: 900px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: 15%;
+    margin-right:15%;
 }

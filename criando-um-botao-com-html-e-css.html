@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Marcio Guinati</title>
+        <meta charset="UTF-8">
+        <link  rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link  rel="stylesheet" type="text/css" href="css/responsivo.css"/>
+        <!--Incorpora o bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Incorpora a fonte da letra bebas neue-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/1488/1488581.svg">
+    </head>
+    <body style="background-color: #2b2c2c;">
+        <div id="mymenuLateral" class="menuLateral">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menuLateral1">
+                <a href="index.html">Home</a>
+                <a href="Curriculo Marcio.pdf" target="blank">Download Curriculo</a>
+            </div>
+          </div>
+          <span style="font-size:30px;cursor:pointer; color: #e0a80d; padding-left: 10px;" onclick="openNav()">&#9776;</span>
+          <section>
+            <h1 id="tituloBlog" data-left>Criando botão html e css</h1>
+          </b>
+          </section>
+          <section>
+            <p class="paragrafo">Você vai aprender agora a criar seu primeiro botão CSS, primeiramente crie uma pasta com o nome do projeto conforme mostrado abaixo</p>
+            <p class="paragrafo"><img class="imgBlog" src="img/blogConteudo1/conteudo.png"></p>
+            <p class="paragrafo">Feito o passo acima, agora crie o seu conteudo com html, pode dar o nome que quiser, mas com a extensão
+                .html, exemplo index.html, no caso o print abaixo eu criei como botaoSalvar.html
+            </p>
+            <p class="paragrafo"><img class="imgBlog" src="img/blogConteudo1/Screenshot_1.png"></p>
+            <p class="paragrafo">Legal!! Agora vamos colocar a mão na massa, criado o seu arquivo com extensão .html, vamos programar hehe</p>
+            <pre id="codigo">
+                div
+                    button type="submit" name="salvar" id="salvar" onclick="salvar()">Salvar button
+                div
+            </pre>
+            <p class="paragrafo">Show de bola, codigo html feito, agora vamos estilizar esse botão acima!</p>
+            <pre id="codigo">
+                body{
+                    background-color: blueviolet;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                #salvar{
+                    background-color: #00BFFF;
+                    color: #FFFFFF;
+                    font-family: Arial, Helvetica, sans-serif;
+                    width: 150px;
+                    height: 40px;
+                    border: solid 1px #000000;
+                    cursor: pointer;
+                    transition-duration: 2s;
+                }
+                #salvar:hover{
+                    background-color: #1E90FF;
+                    color: #FFFFFF;
+                }
+                div{
+                    text-align: center;
+                    padding: 250px;
+                }
+            </pre>
+            <p class="paragrafo"><img class="imgBlog" src="img/blogConteudo1/Screenshot_2.png"></p>
+            <p class="paragrafo">E ai achou legal? Esse é o ultima etapa, se ainda não conseguiu assista o vídeo acima e tire suas duvidas</p>
+            <section>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" id="video" src="https://www.youtube.com/embed/AueMqGOEAtY" allowfullscreen></iframe>
+                </div>
+            </section>
+        </section>
+        <!--Finaliza o formulario de contato para a pessoa se inscrever-->
+        <div class="rodape">Marcio Guinati - Todos direitos reservados ©2020.</div>
+        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5516992475333" target="blank"><img
+            src="img/whatsapp_icon-icons.com_62800.png" class="whatsapp" style="height:70px; position:fixed; bottom: 25px; right: 
+            15px; z-index:99999;" data-selector="img">
+        </a>
+    </div>
+    </body>
+    <!--Incorpora os icones-->
+    <script src="https://kit.fontawesome.com/0086bbc8d1.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!--Incorpora o bootstrap-->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</html>
